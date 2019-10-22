@@ -11,6 +11,10 @@ while True:
     products.append([name, price]) # 將小清單name, price放入大清單'products'
 print(products)
 
+for p in products:
+    print(p[0], '的價格是', p[1])
+
+
 # 存取二維清單：
 
 products[0][0]                  # 進入大清單第0格,再進入小清單第0格
